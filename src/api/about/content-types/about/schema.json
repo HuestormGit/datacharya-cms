@@ -12,12 +12,23 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "eyebrow": {
       "type": "string"
     },
-    "blocks": {
-      "type": "dynamiczone",
-      "components": ["shared.media", "shared.quote", "shared.rich-text", "shared.slider"]
+    "summary": {
+      "type": "blocks"
+    },
+    "primaryButtonText": {
+      "type": "string"
+    },
+    "primaryButtonLink": {
+      "type": "string"
+    },
+    "secondaryButtonText": {
+      "type": "string"
+    },
+    "secondaryButtonLink": {
+      "type": "string"
     }
   }
 }
