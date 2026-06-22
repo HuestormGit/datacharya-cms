@@ -42,6 +42,9 @@
     "url": {
       "type": "uid",
       "targetField": "title"
+    },
+    "read_more_link": {
+      "type": "string"
     }
   }
 }
