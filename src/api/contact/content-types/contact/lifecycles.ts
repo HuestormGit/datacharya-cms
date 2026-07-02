@@ -2,7 +2,12 @@ export default {
   async afterCreate(event) {
     const { result } = event;
 
+    console.log("=== afterCreate lifecycle fired ===");
+    console.log(result);
+
+
     try {
+       console.log("Attempting to send email...");
       await strapi.plugin("email").service("email").send({
         to: "divya.walunj@digimarketmoz.com",
         subject: "New Contact Form Submission",
