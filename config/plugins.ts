@@ -5,6 +5,7 @@
 // export default config;
 
 import type { Core } from "@strapi/strapi";
+console.log("Loading plugins.ts...");
 
 const config = ({ env }: Core.Config.Shared.ConfigParams): Core.Config.Plugin => ({
   email: {
